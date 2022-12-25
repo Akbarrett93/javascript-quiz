@@ -1,0 +1,10 @@
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #53565A;
+    color:antiquewhite;
+    border-radius: 1px;
+}
