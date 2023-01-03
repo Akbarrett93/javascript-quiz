@@ -11,14 +11,14 @@
     <header>
         <button id="hsButton">View High Scores</button>
 
-        <section id="timerSection">
+        <section id="timerSection" style="display: none">
             Time Remaining: <span id="timer"></span>
         </section>
     </header>
 
 
     <section class="center" id="quizDescription">
-        <h1>Javasctip Fundamentals Quiz</h1>
+        <h1>Javascript Fundamentals Quiz</h1>
         <p>Attempt to answer all the questions before time runs out. You will have 60 seconds to complete the quiz.</p>
         <p>If you answer a question incorrectly 5 seconds will be removed from the timer.</p>
         <p>Good luck!</p>
@@ -27,40 +27,32 @@
     </section>
 
 
-    <container class="center" id="quizContainer">
+    <container class="center" id="quizContainer" style="display: none">
         <h2 id="question"></h2>
             <ul>
-                <div class="choiceList">
-                    <button id="choiceA"></button>
-                </div>
-                <div class="choiceList">
-                    <button id="choiceB"></button>
-                </div>
-                <div class="choiceList">
-                    <button id="choiceC"></button>
-                </div>
-                <div class="choiceList">
-                    <button id="choiceD"></button>
-                </div>
+                <button id="choiceA"></button>
+                <button id="choiceB"></button>
+                <button id="choiceC"></button>
+                <button id="choiceD"></button>
             </ul>
     </container>
 
 </body>
 
 
-<div id="response"></div>
+<div class="center" id="response"></div>
 
-<div class="center" id="gameEnd">
+<div class="center" id="gameEnd" style="display: none">
     <h2>Game Over</h2>
-    <p>Your score was: <span id="scoreValue"></span></p>
+    <p>Your score was: <span id="score"></span></p>
     <p>Initials: <input type="text" id="initials"></p>
-    <button id="submitScore"></button>
+    <button id="submitBtn">Submit Score!</button>
 </div>
 
 
-<div class="center" id="highScores">
+<div class="center" id="highScores" style="display: none">
     <h2>High Scores</h2>
-    <div id="hsList"></div>
+    <div id="scoreList"></div>
     <br />
     <button id="goBack">Go Back</button>
     <button id="hsClear">Clear High Scores</button>

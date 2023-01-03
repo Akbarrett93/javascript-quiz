@@ -7,4 +7,9 @@ button {
     background-color: #53565A;
     color:antiquewhite;
     border-radius: 1px;
+    cursor: pointer;
+}
+
+#response {
+    font-size: 200%;
 }
