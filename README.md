@@ -1,3 +1,5 @@
+![javascriptquiz](https://user-images.githubusercontent.com/118003612/210291996-5853a2b2-45ff-4621-84cb-5f43858209d2.png)
+
 User Story
 
 AS A coding boot camp student
